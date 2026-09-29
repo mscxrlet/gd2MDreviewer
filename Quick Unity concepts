@@ -1,0 +1,7 @@
+Start() runs when the component begins; Update() runs once per frame.
+OnControllerColliderHit() is used with a CharacterController; OnCollisionEnter() uses physics collisions; OnTrigger...() uses trigger colliders.
+[SerializeField] keeps a field private by default while allowing it to be assigned in the Inspector.
+GetComponent<T>() retrieves a component on the same GameObject.
+Instantiate() creates a prefab instance; Destroy() removes a GameObject or component.
+Transform.Translate() moves an object; Transform.Rotate() rotates it; MeshRenderer.material.color changes its material color.
+Keyboard.current and Mouse.current come from Unity’s Input System package.
