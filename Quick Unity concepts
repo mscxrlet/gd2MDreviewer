@@ -1,7 +1,15 @@
-Start() runs when the component begins; Update() runs once per frame.
-OnControllerColliderHit() is used with a CharacterController; OnCollisionEnter() uses physics collisions; OnTrigger...() uses trigger colliders.
-[SerializeField] keeps a field private by default while allowing it to be assigned in the Inspector.
-GetComponent<T>() retrieves a component on the same GameObject.
-Instantiate() creates a prefab instance; Destroy() removes a GameObject or component.
-Transform.Translate() moves an object; Transform.Rotate() rotates it; MeshRenderer.material.color changes its material color.
-Keyboard.current and Mouse.current come from Unity’s Input System package.
+Quick Unity concepts
+* Start() runs when the component begins; Update() runs once per frame.
+* OnControllerColliderHit() is used with a CharacterController; OnCollisionEnter() uses physics collisions; OnTrigger...() uses trigger colliders.
+* [SerializeField] keeps a field private by default while allowing it to be assigned in the Inspector.
+* GetComponent<T>() retrieves a component on the same GameObject.
+* Instantiate() creates a prefab instance; Destroy() removes a GameObject or component.
+* Transform.Translate() moves an object; Transform.Rotate() rotates it; MeshRenderer.material.color changes its material color.
+* Keyboard.current and Mouse.current come from Unity’s Input System package.
+
+
+Important Inspector and scene setup reminders
+- Assign every [SerializeField] reference in the Inspector, such as prefabs, transforms, renderers, and stage/player objects.
+- Exact names and tags matter: examples include Safety Net, LastPlatform, Finish Line, LAST, Coin, Radius, and TX32.
+- Collision callbacks require the appropriate collider/controller setup. Trigger callbacks require trigger configuration.
+- Scripts with empty methods or commented-out sections are included as-is because this reviewer preserves the submitted logic.
