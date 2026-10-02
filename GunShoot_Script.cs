@@ -1,4 +1,5 @@
-What it does: Starts with five rounds, fires a bullet prefab on a left-click press while ammunition remains, and reloads to five rounds when R is pressed.
+What it does: Starts with five rounds, fires a bullet prefab on a left-click press while ammunition remains,
+and reloads to five rounds when R is pressed.
 Study points:
 Focus on the fields, Unity event methods, conditions, and the exact GameObject names/tags used by the script.
   
