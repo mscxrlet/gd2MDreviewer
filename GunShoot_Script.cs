@@ -39,7 +39,8 @@ public class GunShoot_Script : MonoBehaviour
 
 
 FROM NADINE:
-What it does: This version fires a bullet prefab with the left mouse button while rounds remain and resets the round count to five when R is pressed.
+What it does: This version fires a bullet prefab with the left mouse button while rounds remain and resets the round count 
+to five when R is pressed.
 Study points:
 Focus on the fields, Unity event methods, conditions, and the exact GameObject names/tags used by the script.
   
